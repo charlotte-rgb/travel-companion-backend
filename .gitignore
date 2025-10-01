@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+companion/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large ML models & data
+*.pth
+*.pt
+*.gguf
+*.bin
+*.zip
+*.tar
+*.tar.gz
+*.h5
+
+# Training data / checkpoints
+data/
+checkpoints/
+outputs/
+logs/
+
+# Env files
+.env
